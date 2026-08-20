@@ -504,6 +504,23 @@ section {
     padding-top: 16px;
     text-align: center;
 }
+.retake-note {
+    font-size: 13px;
+    margin-top: 12px;
+    text-align: center;
+    color: var(--color-text);
+}
+.fv__price-box .retake-note {
+    color: var(--color-white);
+}
+.retake-note .highlight-text {
+    color: var(--color-accent);
+    font-weight: bold;
+    font-size: 15px;
+}
+.fv__price-box .retake-note .highlight-text {
+    color: #ffda75;
+}
 @media (min-width: 768px) {
     .fv { padding: 140px 0 80px; }
     .fv__title-sub { font-size: 48px; }
